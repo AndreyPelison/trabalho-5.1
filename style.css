@@ -1,0 +1,106 @@
+@import  url ( "https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" );
+* {
+  preenchimento :  0 ;
+  margem :  0 ;
+  -webkit-box-sizing : border-box;
+          box-sizing : border-box;
+}
+
+html {
+  font-family :  "Roupa" , sem serifa;
+  tamanho da fonte :  18 px ;
+}
+
+corpo {
+  cor de fundo :  # 0C182A ;
+  cor :  # 668DBF ;
+  preenchimento :  18px ; _
+}
+
+img {
+  largura máxima :  100 % ;
+}
+
+. recipiente {
+  preenchimento :  16px ; _
+  cor de fundo :  # 14253D ;
+  raio da borda :  16 px ;
+  margem inferior :  1 rem ;
+}
+
+. recipiente . conteudo  h2 {
+  cor : branco;
+}
+
+. recipiente . conteudo  p {
+  peso da fonte :  300 ;
+}
+
+. recipiente . conteudo  ul {
+  estilo de lista : nenhum;
+  exibição : -webkit-box;
+  exibição : -ms-flexbox;
+  exibição : flexível;
+  -webkit-box-align : centro;
+      -ms-flex-align : centro;
+          align-items : centro;
+  -webkit-box-pack : justificar;
+      -ms-flex-pack : justificar;
+          justificar-conteúdo : espaço entre;
+  preenchimento :  2 rem  0 ;
+  border-bottom :  1 px sólido # 1e3553 ;
+}
+
+. recipiente . conteudo  li {
+  exibição : -webkit-box;
+  exibição : -ms-flexbox;
+  exibição : flexível;
+  -webkit-box-align : centro;
+      -ms-flex-align : centro;
+          align-items : centro;
+}
+
+. recipiente . conteudo  li  # li-1 {
+  cor :  # 08C0C1 ;
+}
+
+. recipiente . conteudo  li  img {
+  margem direita :  0,5 rem ;
+}
+
+. recipiente . conteudo  h2 {
+  margem :  1 rem  0,5 rem  0,5 rem  0 ;
+}
+
+. recipiente . rodape {
+  exibição : -webkit-box;
+  exibição : -ms-flexbox;
+  exibição : flexível;
+  -webkit-box-align : centro;
+      -ms-flex-align : centro;
+          align-items : centro;
+  -webkit-box-pack : iniciar;
+      -ms-flex-pack : iniciar;
+          justificar-conteúdo : iniciar;
+  topo de preenchimento :  1 rem ;
+}
+
+. recipiente . rodape  img {
+  largura :  2 rem ;
+  borda :  sólido de 2 px # 76808F ;
+  raio de borda :  50 % ;
+  margem direita :  1 rem ;
+}
+
+. recipiente . rodape  span {
+  cor : branco;
+  peso da fonte :  400 ;
+}
+
+@media ( largura mínima :  500 px ) {
+  . recipiente {
+    largura :  450px ; _
+    margem :  0 auto 1 rem ;
+  }
+}
+/*# sourceMappingURL=style.css.map */
