@@ -1,0 +1,95 @@
+@import  url ( " https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap " );
+
+$cor-1 : #14253D ;
+$cor-2 : #668DBF ;
+
+* {
+    preenchimento : 0 ;
+    margem : 0 ;
+    box-sizing : border-box ;
+}
+
+html {
+    font-family : " Outfit " , sem serifa ;
+    tamanho da fonte : 18 px ;
+}
+
+corpo {
+    cor de fundo : #0C182A ;
+    cor : $cor-2 ;
+    preenchimento : 18px ; _
+}
+
+img {
+    largura máxima : 100 % ;
+}
+
+.container {
+    preenchimento : 16px ; _
+    cor de fundo : $cor-1 ;
+    raio da borda : 16 px ;
+    margem inferior : 1 rem ;
+}
+
+.container  .conteudo {
+
+    h2 {
+        cor : branco ;
+    }
+
+    p {
+        peso da fonte : 300 ;
+    }
+
+    ul {
+        estilo de lista : nenhum ;
+        exibição : flexível ;
+        align-items : center ;
+        justificar-conteúdo : espaço entre ;
+        preenchimento : 2 rem  0 ;
+        border-bottom : 1 px  sólido  #1e3553 ;
+    }
+
+    li {
+        exibição : flexível ;
+        align-items : center ;
+
+        #li-1 {
+            cor : #08C0C1 ;
+        }
+
+        img {
+            margem direita : 0,5 rem ;
+        }
+    }
+
+    h2 {
+        margem : 1 rem  0,5 rem  0,5 rem  0 ;
+    }
+}
+
+.container  .rodape {
+    exibição : flexível ;
+    align-items : center ;
+    justificar-conteúdo : start ;
+    topo de preenchimento : 1 rem ;
+
+    img {
+        largura : 2 rem ;
+        borda : sólido de 2 px  #76808F ; 
+        raio de borda : 50 % ;
+        margem direita : 1 rem ;
+    }
+
+    intervalo {
+        cor : branco ;
+        peso da fonte : 400 ;
+    }
+}
+
+@media ( largura mínima : 500 px ) {
+    .container {
+        largura : 450px ; _
+        margem : 0  auto  1 rem ;
+    }
+}
